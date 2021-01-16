@@ -1,0 +1,19 @@
+{
+  "name": "ANDREW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx babel src/app.js --out-file public/app.js  --presets=@babel/preset-env,@babel/preset-react --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
